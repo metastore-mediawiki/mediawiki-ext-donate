@@ -1,20 +1,20 @@
 # Информация
 
-Интеграция комментариев системы **Disqus** в статью.
+
 
 ## Синтаксис
 
 ```
-<disqus />
+
 ```
 
 ## Установка
 
-1. Загрузите папки и файлы в директорию `extensions/MW_EXT_Disqus`.
+1. Загрузите папки и файлы в директорию `extensions/MW_EXT_Donate`.
 2. В самый низ файла `LocalSettings.php` добавьте строку:
 
 ```
-wfLoadExtension( 'MW_EXT_Disqus' );
+wfLoadExtension( 'MW_EXT_Donate' );
 ```
 
 ## Авторы
