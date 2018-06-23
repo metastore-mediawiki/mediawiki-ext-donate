@@ -1,0 +1,17 @@
+@media (max-width: 1087px) {
+	.mw-ext-donate {
+		margin: 1em 0;
+		max-width: unset;
+		.mw-ext-donate {
+			&-body {
+				display: block;
+			}
+			&-icon {
+				display: none;
+			}
+			&-select {
+				display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"name": "MW_EXT_Donate",
+	"version": "1.0.0",
+	"author": [
+		"[https://kitsune.solar/ Kitsune Solar]",
+		"[https://metastore.pro/ METASTORE]",
+		"..."
+	],
+	"url": "https://metastore.pro/",
+	"descriptionmsg": "mw-ext-donate-desc",
+	"license-name": "[https://www.gnu.org/licenses/gpl-3.0.txt GPL-3.0]",
+	"type": "parserhook",
+	"require": {
+		"MediaWiki": ">= 1.30.0"
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\MW_EXT_Donate\\MW_EXT_Donate": "MW_EXT_Donate.class.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"MediaWiki\\Extension\\MW_EXT_Donate\\MW_EXT_Donate::onParserFirstCallInit"
+		],
+		"BeforePageDisplay": [
+			"MediaWiki\\Extension\\MW_EXT_Donate\\MW_EXT_Donate::onBeforePageDisplay"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"MW_EXT_DonateMagic": "MW_EXT_Donate.i18n.magic.php"
+	},
+	"MessagesDirs": {
+		"MW_EXT_Donate": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.mw.donate.styles": {
+			"styles": [
+				"styles/theme.css"
+			],
+			"position": "top",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "MW_EXT_Donate/modules"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kitsune Solar"
+		]
+	},
+	"mw-ext-donate-desc": "",
+	"mw-ext-donate-targets": "test",
+	"mw-ext-donate-comment-placeholder": "Введите комментарий...",
+	"mw-ext-donate-payment-pc": "Яндекс.Деньги",
+	"mw-ext-donate-payment-ac": "Банковская карта",
+	"mw-ext-donate-payment-mc": "Мобильный телефон",
+	"mw-ext-donate-sum-placeholder": "Укажите сумму перевода...",
+	"mw-ext-donate-title": "Перевод средств",
+	"mw-ext-donate-submit": "Перевести"
+}
