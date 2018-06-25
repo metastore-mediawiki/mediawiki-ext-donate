@@ -81,7 +81,7 @@ class MW_EXT_Donate {
 		$outShortDest = $getShortDest;
 
 		// Out HTML.
-		$outHTML = '<div class="mw-ext-donate">';
+		$outHTML = '<div class="mw-ext-donate navigation-not-searchable">';
 		$outHTML .= '<div class="mw-ext-donate-body">';
 		$outHTML .= '<div class="mw-ext-donate-icon"><div><i class="fas fa-donate"></i></div></div>';
 		$outHTML .= '<div class="mw-ext-donate-content">';
