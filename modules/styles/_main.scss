@@ -1,26 +1,6 @@
 .mw-ext-donate {
-	box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
-	margin: 1em auto;
-	max-width: 80%;
-	* {
-		box-sizing: border-box;
-	}
-	h4 {
-		font-weight: 700;
-		margin: 0 !important;
-		padding: 0;
-	}
+	max-width: 40em;
 	form {
-		margin-top: 1em;
-		width: 100%;
-	}
-	input[type='text'],
-	input[type='number'],
-	textarea {
-		border: 1px solid hsl(0, 0%, 86%);
-		box-shadow: inset 0 1px 2px rgba(10, 10, 10, .1);
-		resize: vertical;
-		padding: 1em;
 		width: 100%;
 	}
 	input[type='radio'] {
@@ -44,24 +24,10 @@
 		color: hsl(348, 100%, 61%);
 	}
 	.mw-ext-donate {
-		&-body {
-			display: grid;
-			grid-template-columns: 5em 1fr;
-		}
-		&-icon {
-			display: grid;
-			align-items: center;
-			justify-items: center;
-			background: hsla(0, 0%, 0%, .03);
-			color: hsl(0, 0%, 86%);
-			font-size: 2em;
-			padding: .5em;
-			div {
-				text-align: center;
-			}
-		}
-		&-content {
-			padding: 1em;
+		&-desc {
+			color: hsl(0, 0%, 48%);
+			font-size: .9em;
+			margin-top: .5em;
 		}
 		&-form {
 			> div {
@@ -69,29 +35,22 @@
 			}
 		}
 		&-select {
-			display: grid;
-			grid-gap: 0 1em;
-			grid-template-columns: repeat(3, 1fr);
+			margin: 1em 0;
 			> div {
-				margin: 1em 0;
+				&:first-child {
+					display: grid;
+					grid-gap: 0 1em;
+					grid-template-columns: repeat(3, 1fr);
+				}
 			}
 		}
 		&-submit {
 			text-align: center;
 			input {
-				border: none;
-				border-radius: .4em;
-				background: hsl(217, 71%, 53%);
-				box-shadow: inset 0 1px 2px rgba(10, 10, 10, .1);
-				color: hsl(0, 0%, 100%);
 				font-size: 1.4em;
 				padding: 1em;
 				text-transform: uppercase;
 				width: 100%;
-				&:hover {
-					box-shadow: 0 3px 18px 0 rgba(84, 110, 122, .3);
-					cursor: pointer;
-				}
 			}
 		}
 	}
