@@ -7,7 +7,7 @@ use MediaWiki\Extension\MW_EXT_Core\MW_EXT_Core;
 
 /**
  * Class MW_EXT_YaQuickPay
- * ------------------------------------------------------------------------------------------------------------------ */
+ */
 class MW_EXT_Donate {
 
 	/**
@@ -17,8 +17,7 @@ class MW_EXT_Donate {
 	 *
 	 * @return bool
 	 * @throws \MWException
-	 * -------------------------------------------------------------------------------------------------------------- */
-
+	 */
 	public static function onParserFirstCallInit( Parser $parser ) {
 		$parser->setFunctionHook( 'donate', [ __CLASS__, 'onRenderTag' ], Parser::SFH_OBJECT_ARGS );
 
@@ -34,8 +33,7 @@ class MW_EXT_Donate {
 	 *
 	 * @return string
 	 * @throws \ConfigException
-	 * -------------------------------------------------------------------------------------------------------------- */
-
+	 */
 	public static function onRenderTag( Parser $parser, PPFrame $frame, $args = [] ) {
 		// Get options parser.
 		$getOption = MW_EXT_Core::extractOptions( $args, $frame );
@@ -214,8 +212,7 @@ class MW_EXT_Donate {
 	 * @param Skin $skin
 	 *
 	 * @return bool
-	 * -------------------------------------------------------------------------------------------------------------- */
-
+	 */
 	public static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
 		$out->addModuleStyles( [ 'ext.mw.donate.styles' ] );
 
