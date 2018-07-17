@@ -1,11 +1,24 @@
 # Информация
 
+Система пожертвований на:
 
+- Yandex.Money;
+- банковскую карту;
+- счёт PayPal;
+- кошелёк Bitcoin;
+- кошелёк Ethereum;
+- кошелёк Monero.
 
 ## Синтаксис
 
 ```
-
+{{#donate: ya-wallet =
+|card =
+|paypal =
+|bitcoin =
+|monero =
+|ethereum =
+}}
 ```
 
 ## Установка
