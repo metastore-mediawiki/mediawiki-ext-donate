@@ -4,8 +4,8 @@
 			"Kitsune Solar"
 		]
 	},
-	"mw-ext-donate-desc": "",
-	"mw-ext-donate-targets": "test",
+	"mw-ext-donate-desc": "Система пожертвований.",
+	"mw-ext-donate-targets": "",
 	"mw-ext-donate-comment-placeholder": "Введите комментарий...",
 	"mw-ext-donate-payment-pc": "Яндекс.Деньги",
 	"mw-ext-donate-payment-ac": "Банковская карта",
