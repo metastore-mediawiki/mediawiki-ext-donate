@@ -6,16 +6,16 @@ if ( ! defined( 'MEDIAWIKI' ) ) {
 }
 
 if ( function_exists( 'wfLoadExtension' ) ) {
-	wfLoadExtension( 'MW_EXT_YaQuickPay' );
+	wfLoadExtension( 'MW_EXT_Donate' );
 	// Keep i18n globals so mergeMessageFileList.php doesn't break
-	$wgExtensionMessagesFiles['MW_EXT_YaQuickPay'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['MW_EXT_Donate'] = __DIR__ . '/i18n';
 
 	/* wfWarn(
-	  'Deprecated PHP entry point used for MW_EXT_YaQuickPay extension. Please use wfLoadExtension instead, ' .
+	  'Deprecated PHP entry point used for MW_EXT_Donate extension. Please use wfLoadExtension instead, ' .
 	  'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
 	); */
 
 	return;
 } else {
-	die( 'This version of the MW_EXT_YaQuickPay extension requires MediaWiki 1.25+' );
+	die( 'This version of the MW_EXT_Donate extension requires MediaWiki 1.25+' );
 }

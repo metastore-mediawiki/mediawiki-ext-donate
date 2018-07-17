@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Internationalisation file for extension MW_EXT_YaQuickPay (magic words).
+ * Internationalisation file for extension MW_EXT_Donate (magic words).
  *
  * @file
  * @ingroup Extensions

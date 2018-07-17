@@ -6,7 +6,7 @@ use OutputPage, Parser, PPFrame, Skin;
 use MediaWiki\Extension\MW_EXT_Core\MW_EXT_Core;
 
 /**
- * Class MW_EXT_YaQuickPay
+ * Class MW_EXT_Donate
  */
 class MW_EXT_Donate {
 
